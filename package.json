@@ -1,0 +1,52 @@
+{
+  "name": "cdktf-vitest",
+  "author": "Daniel Grefberg <hello@danielgrefberg.com>",
+  "version": "0.1.0",
+  "description": "Terraform CDK matchers for Vitest",
+  "license": "MIT",
+  "keywords": [
+    "cdktf",
+    "terraform",
+    "cdk",
+    "testing",
+    "vitest",
+    "typescript"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "changeset": "changeset",
+    "preinstall": "npx only-allow pnpm",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "cdktf": "^0.16.1",
+    "vitest": "^0.31.1"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@vitest/expect": "^0.31.1",
+    "cdktf": "^0.16.1",
+    "changesets-changelog-clean": "^1.0.0",
+    "constructs": "^10.2.33",
+    "prettier": "^2.8.8",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
+  }
+}
