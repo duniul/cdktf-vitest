@@ -1,19 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": ["@tsconfig/node16/tsconfig.json"],
   "compilerOptions": {
-    "lib": ["es2021"],
-    "target": "es2021",
-    "module": "node16",
-    "moduleResolution": "node16",
     "outDir": "dist",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "noImplicitOverride": true,
-    "declaration": true
+    "noImplicitOverride": true
   }
 }
