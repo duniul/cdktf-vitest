@@ -1,7 +1,7 @@
 {
   "name": "cdktf-vitest",
   "author": "Daniel Grefberg <hello@danielgrefberg.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Terraform CDK matchers for Vitest",
   "license": "MIT",
   "keywords": [

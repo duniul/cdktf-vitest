@@ -1,5 +1,11 @@
 # cdktf-vitest
 
+## 0.1.2
+
+### Patch Changes
+
+- Fix peer dependency ranges. _[`154382f`](https://github.com/duniul/cdktf-vitest/commit/154382f17f0071316e1517fa40d920066ea08d5a) [@duniul](https://github.com/duniul)_
+
 ## 0.1.1
 
 ### Patch Changes
