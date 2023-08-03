@@ -39,14 +39,14 @@
     "vitest": "^0.31.1"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.1",
-    "@vitest/expect": "^0.31.1",
-    "cdktf": "^0.16.1",
-    "changesets-changelog-clean": "^1.0.0",
-    "constructs": "^10.2.33",
-    "prettier": "^2.8.8",
-    "tsup": "^6.7.0",
-    "typescript": "^5.0.4",
-    "vitest": "^0.31.1"
+    "@changesets/cli": "^2.26.2",
+    "@vitest/expect": "^0.34.1",
+    "cdktf": "^0.17.3",
+    "changesets-changelog-clean": "^1.2.1",
+    "constructs": "^10.2.69",
+    "prettier": "^3.0.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
   }
 }
