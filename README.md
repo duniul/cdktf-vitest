@@ -1,3 +1,8 @@
+> ## ⚠️ Deprecated
+> With CDKTF being officially deprecated, so is this lib!
+>
+> The original readme is left below.
+
 # cdktf-vitest
 
 [![npm](https://img.shields.io/npm/v/cdktf-vitest.svg)](https://www.npmjs.com/package/cdktf-vitest)
